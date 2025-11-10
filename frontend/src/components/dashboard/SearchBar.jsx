@@ -29,7 +29,7 @@ const SearchBar = ({ onSearch }) => {
           type="text"
           value={searchTerm}
           onChange={handleChange}
-          className="block w-full pl-10 pr-12 py-3 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+          className="block w-full pl-10 pr-12 py-4 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
           placeholder="Search contacts by name or email..."
         />
         {searchTerm && (

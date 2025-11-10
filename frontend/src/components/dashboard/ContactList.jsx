@@ -66,7 +66,7 @@ const ContactList = ({ contacts, onDelete, onEdit }) => {
               <div className="flex gap-2">
                 <button
                   onClick={() => onEdit(contact)}
-                  className="text-white hover:text-blue-200 transition-colors p-2 rounded-full hover:bg-white hover:bg-opacity-20"
+                  className="text-white hover:text-blue-600 transition-colors p-2 rounded-full hover:bg-white hover:bg-opacity-20"
                   title="Edit contact"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,7 +75,7 @@ const ContactList = ({ contacts, onDelete, onEdit }) => {
                 </button>
                 <button
                   onClick={() => setDeleteConfirm(contact._id)}
-                  className="text-white hover:text-red-200 transition-colors p-2 rounded-full hover:bg-white hover:bg-opacity-20"
+                  className="text-white hover:text-red-600 transition-colors p-2 rounded-full hover:bg-white hover:bg-opacity-20"
                   title="Delete contact"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
